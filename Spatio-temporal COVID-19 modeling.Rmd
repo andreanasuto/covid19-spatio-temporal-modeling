@@ -53,7 +53,8 @@ library(FRK)
 ```
 
 ```{r include=FALSE}
-covid_19 <- st_read('/Users/Andrea/OneDrive\ -\ The\ University\ of\ Liverpool/Spatial\ Analysis\ and\ Modeling/data/assignment_2_covid/covid19_eng.gpkg')
+filepath <- 'here file path with db'
+covid_19 <- st_read(filepath)
 ```
 ## Part I
 **Methods**
